@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  /* background-color: #15181A !important; */
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-size: calc(.5 * (1.5vh + 1.1vw));
+  line-height:calc(.5 * (1.5vh + 1.1vw)) ;
 }
 
 .App-logo {
@@ -21,7 +25,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(107, 107, 107);
 }
 
 .App-link {

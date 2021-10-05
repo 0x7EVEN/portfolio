@@ -1,0 +1,14 @@
+.section-link{
+     margin:30px auto;
+     text-decoration: none;
+     color: #000;
+     text-align: left;
+     margin-left: 70px;
+     padding: 20px;
+}
+
+.section-link a{
+     text-decoration: none;
+     color: #fff;
+     align-self: start;
+}

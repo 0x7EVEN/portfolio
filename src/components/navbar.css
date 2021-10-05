@@ -1,0 +1,91 @@
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap'); */
+.navbar-custom{
+     box-sizing: border-box;
+     /* min-height: 10vh; */
+     /* background-color: #212121; */
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+     /* width: 100vw; */
+     /* font-family: 'IBM Plex Mono', monospace;     overflow-y: scroll; */
+     /* overflow-x: hidden;*/
+     font-size: 23px;
+     font-size: calc(.5 * (2.5vh + 2.1vw));
+     align-content: center;
+     align-items: center;
+}
+.dark{
+     /* background-color: #15181A; */
+     background-color: transparent;
+     color: white;
+}
+.light{
+     background-color:white ;
+     color: #000;
+}
+.shadow-effect{
+     box-shadow: 5px 10px #888888
+}
+
+/*
+@media (max-width: 766px) {
+     .navbar-custom{
+          display: none;
+     }
+}
+@media (max-width: 992px) {
+     a h3{
+          font-size: medium !important;
+     } */
+
+.custom-control-input:focus ~
+     .custom-control-label::before {
+          border-color: rgb(37, 30, 37) !important;
+          box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+     }
+     .custom-control-input:checked ~
+     .custom-control-label::before {
+               border-color: violet !important;
+               background-color: violet !important;
+     }
+     .custom-control-input:active ~
+     .custom-control-label::before {
+               background-color: violet !important;
+               border-color: violet !important;
+     }
+     .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+          border-color: violet !important;
+     }
+
+img{
+     width: 150px;
+     height: 150px;;
+}
+.image-holder{
+     align-items: center;;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     border:1px solid black;
+}
+a{
+     text-decoration: none !important;
+     text-align: left;
+}
+a h3{
+     color:#7f7f92;
+     text-decoration: none;
+     text-align: left;
+     font-weight: 650 !important;
+}
+a  h3:hover  {
+     text-decoration: underline;
+}
+/*
+.navigation-range{
+     margin-top: 300px;
+     margin-left: -70px;
+     height: 700px;
+     transform: rotate(90deg);
+} */
+
