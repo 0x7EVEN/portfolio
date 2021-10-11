@@ -2,7 +2,7 @@
      font-size: calc(.5 * (4vh + 9vw));
 }
 .sub-heading{
-     font-size: 20px;
+     font-size: calc(.5 * (2vh + 2.1vw));
 }
 .floating-pic, .floating-pic img,.floating-pic svg{
      width:100%;
@@ -13,7 +13,7 @@
      align-content: center;
 }
 div{
-     /* border:1px solid red; */
+     border:1px solid red;
 }
 .MuiTimelineItem-root{
      align-self: flex-start;
@@ -24,11 +24,11 @@ div{
 }
 *{
      color: rgb(66, 65, 65);
-     font-size: calc(0.4*(5vh+5vw));
+     font-size: calc(.5 * (2vh + 2.1vw));
 }
 @media only screen and (max-width: 500px){
      h6.sub-heading{
-     font-size:calc(0.5*(10.5vh+15vw));
+     font-size:calc(0.5*(1.5vh+3vw));
      }
 }
 @media only screen and (max-width:767px){
@@ -36,14 +36,16 @@ div{
           margin-top: 5vh;
      }
 }
-
+a{
+     color:white !important;
+}
 .side-nav{
-     background-color: rgb(255, 255, 255) !important;
+     background-color:#4895FA !important;
      position: fixed;
      right: 0;
      top:0;
      height: 100vh;
-     font-size: 18px;
+     font-size: calc(.5 * (2vh + 2.1vw));
      border: 1px solid black;
 }
 .my-pic img{

@@ -7,6 +7,8 @@
 * .timeline-outer{
      background-color: black;
      color: white !important;
+     font-size: calc(.2 * (2vh + 2.1vw)) !important;
+;
 }
 .ant-timeline-item-head-custom{
      padding: 0;
