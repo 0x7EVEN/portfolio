@@ -17,7 +17,7 @@
      z-index: 5;
      bottom: 0;
      left: 5vw;
-     font-size: calc(.5 * (2.5vh + 2.1vw));
+     font-size: calc(.5 * (2vh + 2.1vw));
      align-content: center;
      align-items: center;
      text-decoration: underline;
@@ -51,6 +51,30 @@
      align-self:center;
      max-width: 90px;
      max-height: 30px;
+}
+.lowest *{
+     position: absolute;
+     bottom: 0;
+     align-items: center;
+     text-align: center;
+}
+.link-to{
+     position: absolute;
+     bottom:10%;
+     width: 100%;
+     padding:5% 5%;
+     text-align: center;
+     align-items: center;
+}
+.link-to button {
+     width:70%;
+     margin: auto;
+     font-size: calc(.5 * (1.5vh + 2.1vw));
+     color:white;
+     border:none;
+     padding:5px 15px;
+     border:2px solid white;
+     background-color:#4895FA ;
 }
 /*
 @media (max-width: 766px) {

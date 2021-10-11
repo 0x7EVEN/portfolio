@@ -4,12 +4,12 @@
      height: 100vh;
 }
 .most-outer-div{
-     font-size: calc(0.2*(8vh+12vw)) !important;
      background-color: rgb(255, 251, 245) !important;
      margin: 0px;
+     font-size: 5%;
 }
 .project-title{
-     font-size: calc(0.4*(14vh+14vw));
+     font-size: 24px;
 }
 h3{
      margin-top: 55px !important;

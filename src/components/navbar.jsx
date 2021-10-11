@@ -6,17 +6,21 @@ import "./timeline.css"
 import "./Milestone.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,Row,Col,Image } from 'react-bootstrap'
-import {useContext} from "react";
+import {useContext,useEffect,useState} from "react";
 import {Theme} from "../context/ThemeContext";
 import {Link} from "react-router-dom"
 import Journey from "./timeline";
-
+import axios from "axios";
 
 
 export default function Navbar ({page}) {
-
-
-
+     const [visiter, setVisiter] = useState(1000);
+     async function visiters () {
+          const {data} = await axios.get("https://visitor-badge.glitch.me/badge?page_id=0x7EVEN")
+     }
+     useEffect(() => {
+          visiters()
+     },[])
 
      const theme = useContext(Theme);
      return (
@@ -25,7 +29,7 @@ export default function Navbar ({page}) {
                {/* <Row className="my-pic p-0 m-0">
                     <img className="p-0" src="https://avatars.githubusercontent.com/u/76391543?v=4" alt="" />
                </Row> */}
-               <Row className="text-center social-links">
+               {/* <Row className="text-center social-links">
                     <Col className="col-2"><img src="https://cdn0.iconfinder.com/data/icons/work-2-2/200/Job-Application-1-256.png" alt="" /></Col>
                     <Col className="col-2">
                          <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" alt="" />
@@ -36,7 +40,7 @@ export default function Navbar ({page}) {
                     <Col className="col-2"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-128.png" alt="" /></Col>
                     <Col className="col-2"><img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-128.png" alt="" /></Col>
                     <Col className="col-2"><img src="https://cdn3.iconfinder.com/data/icons/social-media-networks-logos-and-badges-1/64/Social__Mail--circle-128.png" alt="" /></Col>
-               </Row>
+               </Row> */}
                <Row className="m-0">
                     {/* <Col className="col-12 pt-4">home</Col>
                     <Col className="col-12 pt-4">projects</Col>
@@ -46,13 +50,28 @@ export default function Navbar ({page}) {
                          <Journey className="m-0"  page={page}></Journey>
                          </Col>
                     </Row>
-               <Row className="">
+               <Row className="m-0">
+
+               </Row>
+               <Row className="m-0">
+                         <Col className="col-12 d-flex justify-content-center">
+
+                         </Col>
+               </Row>
+               <Row className="m-0">
+
+               </Row>
+               <Row className="link-to m-0">
+                         {/* <i class='far fa-address-card'></i> */}
+                         <button>Resume</button>
+               </Row>
+               <Row className="m-0 lowest">
                     <Col className="d-flex justify-content-center visiters" style={{display: page == "portfolio" ? "flex":"none"}}>
                          <img style={{display: page == "portfolio" ? "flex":"none"}} align="center" src="https://visitor-badge.glitch.me/badge?page_id=0x7EVEN" />
                     </Col>
                </Row>
           </Col>
-          <Container fluid  className="navbar-custom d-block d-sm-block sticky d-md-none d-lg-none p-0 m-0">
+          <Container fluid  className="border navbar-custom d-block d-sm-block sticky d-md-none d-lg-none p-0 m-0">
                <Row className="text-center p-0 m-auto align-middle">
                     <Col className="border py-2 col-4 me-auto" >
                          <div className="border p-0 m-0" >
