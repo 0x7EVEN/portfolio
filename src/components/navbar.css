@@ -1,19 +1,35 @@
-/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 .navbar-custom{
-     box-sizing: border-box;
      /* min-height: 10vh; */
      /* background-color: #212121; */
-     position: -webkit-sticky;
-     position: sticky;
-     top: 0;
+     /* position: -webkit-sticky; */
+     /* position: sticky; */
      /* width: 100vw; */
      /* font-family: 'IBM Plex Mono', monospace;     overflow-y: scroll; */
      /* overflow-x: hidden;*/
+     /* font-family: 'Source Code Pro', monospace; */
      font-size: 23px;
+     width: 90vw;
+     margin:auto;
+     position: fixed;
+     z-index: 5;
+     bottom: 0;
+     left: 5vw;
      font-size: calc(.5 * (2.5vh + 2.1vw));
      align-content: center;
      align-items: center;
+     text-decoration: underline;
 }
+.div-inline{
+     display: inline-block;
+}
+.div-inline:hover{
+     transition: 0.1s;
+     border-bottom: 4px solid rgb(43, 42, 42);
+}
+
 .dark{
      /* background-color: #15181A; */
      background-color: transparent;
@@ -26,7 +42,16 @@
 .shadow-effect{
      box-shadow: 5px 10px #888888
 }
+.timeline-outer{
+     background-color: white;
 
+}
+.visiters img,.visiters svg{
+     margin: auto;
+     align-self:center;
+     max-width: 90px;
+     max-height: 30px;
+}
 /*
 @media (max-width: 766px) {
      .navbar-custom{
