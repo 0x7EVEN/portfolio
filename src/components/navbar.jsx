@@ -1,4 +1,9 @@
+import "./home.css"
 import "./navbar.css"
+import "./projects.css"
+import "./sectionlinks.css"
+import "./timeline.css"
+import "./Milestone.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,Row,Col,Image } from 'react-bootstrap'
 import {useContext} from "react";

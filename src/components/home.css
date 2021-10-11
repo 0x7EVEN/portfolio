@@ -2,7 +2,7 @@
      font-size: calc(.5 * (4vh + 9vw));
 }
 .sub-heading{
-     font-size: calc(.4*(4vh+10vw));
+     font-size: 20px;
 }
 .floating-pic, .floating-pic img,.floating-pic svg{
      width:100%;
@@ -13,7 +13,7 @@
      align-content: center;
 }
 div{
-     border:1px solid red;
+     /* border:1px solid red; */
 }
 .MuiTimelineItem-root{
      align-self: flex-start;
