@@ -1,5 +1,10 @@
 import {Col,Row,Container,Carousel} from "react-bootstrap"
+import "./home.css"
+import "./navbar.css"
 import "./projects.css"
+import "./sectionlinks.css"
+import "./timeline.css"
+import "./Milestone.css";
 import AOS from "aos"
 
 

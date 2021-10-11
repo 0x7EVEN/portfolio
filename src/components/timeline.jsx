@@ -32,6 +32,14 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
+import "./home.css"
+import "./navbar.css"
+import "./projects.css"
+import "./sectionlinks.css"
+import "./timeline.css"
+import "./Milestone.css"
+
+
 export default function Journey({page}) {
   return (
     <Timeline>

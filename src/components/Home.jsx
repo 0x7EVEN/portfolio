@@ -205,6 +205,11 @@ import {ReactComponent as Hero} from "./jamron.svg"
 import Journey from "./timeline"
 import AOS from "aos"
 import "./home.css"
+import "./navbar.css"
+import "./projects.css"
+import "./sectionlinks.css"
+import "./timeline.css"
+import "./Milestone.css"
 export default function Home(){
      return <div className="container-fluid p-0">
      <Col className="order-1 col-12 col-sm-12 col-md-10 col-lg-10 p-0 m-0">
