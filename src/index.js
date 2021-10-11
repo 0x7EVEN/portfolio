@@ -6,14 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import ThemeProvider from "./context/ThemeContext";
 import {BrowserRouter} from "react-router-dom";
 
-
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider>
-      <BrowserRouter>
+    <BrowserRouter>
+      <ThemeProvider>
         <App />
-      </BrowserRouter>
-    </ThemeProvider>
+      </ThemeProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

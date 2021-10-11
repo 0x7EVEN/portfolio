@@ -3,27 +3,84 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container,Row,Col,Image } from 'react-bootstrap'
 import {useContext} from "react";
 import {Theme} from "../context/ThemeContext";
-export default function Navbar () {
+import {Link} from "react-router-dom"
+import Journey from "./timeline";
+
+
+
+export default function Navbar ({page}) {
+
+
+
 
      const theme = useContext(Theme);
      return (
-          <div className={`${theme ? "light" : "dark"}`} >
-          <Container fluid  className="border d-none sticky d-md-block">
-               <Row className="text-center navbar-custom py-2">
-                    <Col className="border p-2" >
-                        <div className="border p-0 m-0" > home</div>
+          <div className={`${theme ? "light" : "dark"} w-100 p-0 m-0`} >
+          <Col className="p-0 side-nav d-none col-none d-sm-none d-md-block col-md-2 col-lg-2">
+               {/* <Row className="my-pic p-0 m-0">
+                    <img className="p-0" src="https://avatars.githubusercontent.com/u/76391543?v=4" alt="" />
+               </Row> */}
+               <Row className="text-center social-links">
+                    <Col className="col-2"><img src="https://cdn0.iconfinder.com/data/icons/work-2-2/200/Job-Application-1-256.png" alt="" /></Col>
+                    <Col className="col-2">
+                         <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png" alt="" />
                     </Col>
-                    <Col className="border offset-sm-5" >
+                    <Col className="col-2">
+                         <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter3_colored_svg-128.png" alt="" />
+                    </Col>
+                    <Col className="col-2"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/github-128.png" alt="" /></Col>
+                    <Col className="col-2"><img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-128.png" alt="" /></Col>
+                    <Col className="col-2"><img src="https://cdn3.iconfinder.com/data/icons/social-media-networks-logos-and-badges-1/64/Social__Mail--circle-128.png" alt="" /></Col>
+               </Row>
+               <Row className="m-0">
+                    {/* <Col className="col-12 pt-4">home</Col>
+                    <Col className="col-12 pt-4">projects</Col>
+                    <Col className="col-12 pt-4">about</Col>
+                    <Col className="col-12 pt-4">contact</Col> */}
+                         <Col className="pt-4 m-0">
+                         <Journey className="m-0"  page={page}></Journey>
+                         </Col>
+                    </Row>
+               <Row className="">
+                    <Col className="d-flex justify-content-center visiters" style={{display: page == "portfolio" ? "flex":"none"}}>
+                         <img style={{display: page == "portfolio" ? "flex":"none"}} align="center" src="https://visitor-badge.glitch.me/badge?page_id=0x7EVEN" />
+                    </Col>
+               </Row>
+          </Col>
+          <Container fluid  className="navbar-custom d-block d-sm-block sticky d-md-none d-lg-none p-0 m-0">
+               <Row className="text-center p-0 m-auto align-middle">
+                    <Col className="border py-2 col-4 me-auto" >
+                         <div className="border p-0 m-0" >
+                              <Link to="/portfolio">
+                                   <div className="div-inline">home</div>
+                              </Link>
+                         </div>
+                    </Col>
+                    <Col className="border col-2" >
+                         <div className="div-inline">
+                              <Link to="/projects">
                          projects
+                              </Link>
+                         </div>
                     </Col>
-                    <Col className="border" >
-                         blogs
+                    <Col className="border col-2" >
+                         <div className="div-inline">
+                              <Link to="/">
+                                   blogs
+                              </Link>
+                              </div>
                     </Col>
-                    <Col className="border" >
-                         contact
+                    <Col className="border col-2" >
+                         <div className="div-inline">
+                              <Link to="/about">
+                                   about
+                              </Link>
+                         </div>
                     </Col>
-                    <Col className="border" >
-                         test
+                    <Col className="border col-2" >
+                              <div className="div-inline">
+                              contact
+                         </div>
                     </Col>
                </Row>
                </Container>

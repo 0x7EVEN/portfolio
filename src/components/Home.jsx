@@ -200,7 +200,32 @@
 
 // export default Milestone;
 
-
-
-
+import {Col, Row, Container} from "react-bootstrap"
+import {ReactComponent as Hero} from "./jamron.svg"
+import Journey from "./timeline"
+import AOS from "aos"
+import "./home.css"
+export default function Home(){
+     return <div className="container-fluid p-0">
+     <Col className="order-1 col-12 col-sm-12 col-md-10 col-lg-10 p-0 m-0">
+     <Container data-aos="fade-up" data-aos-duration="1000"  fluid className="border p-0 m-auto">
+          <Row className="heading-row m-auto p-0">
+               <Col className="col-12 col-lg-7 col-md-7 col-sm-12 text-left hero-name align-end p-2 order-sm-2 order-md-2 order-lg-1 order-2">
+                    <div className="p-5">
+                         <h2>Hi 👋 there !, it's me </h2>
+                         <h1 className="m-0 p-0 extra-large-font">{"< Arif Shaikh />"}</h1>
+                         <h4 className="sub-heading">//💻 M.E.R.N. stack Developer,  🚩 CTF player</h4>
+                    </div>
+               </Col>
+               <Col className="col-12 col-lg-5 col-md-5 col-sm-12 order-md-1 order-sm-1 p-0 m-0">
+               <div className="floating-pic fluid">
+               <Hero fluid/>
+               </div>
+               </Col>
+          </Row>
+          </Container>
+     </Col>
+     </div>
+}
+AOS.init()
 

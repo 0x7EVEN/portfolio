@@ -17,6 +17,7 @@ code {
 
 html {
     font-size: 14px;
+    margin: 0px;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: .5em;
+    margin:0px;
     margin-bottom: 50px;
 }
 
