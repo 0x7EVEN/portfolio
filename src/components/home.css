@@ -12,9 +12,9 @@
      align-items: center;
      align-content: center;
 }
-div{
+/* div{
      border:1px solid red;
-}
+} */
 .MuiTimelineItem-root{
      align-self: flex-start;
 }
@@ -40,7 +40,7 @@ a{
      color:white !important;
 }
 .side-nav{
-     background-color:#4895FA !important;
+     background-color:#2973d4 !important;
      position: fixed;
      right: 0;
      top:0;
