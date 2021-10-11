@@ -16,7 +16,6 @@ div{
      border:1px solid red;
 }
 .MuiTimelineItem-root{
-     width:100%;
      align-self: flex-start;
 }
 .hero-name{
