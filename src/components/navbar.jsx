@@ -50,26 +50,40 @@ export default function Navbar ({page}) {
                          <Journey className="m-0"  page={page}></Journey>
                          </Col>
                     </Row>
-               <Row className="m-0">
-
-               </Row>
-               <Row className="m-0">
-                         <Col className="col-12 d-flex justify-content-center">
-
+               <Row className="m-0 p-3">
+                         <Col className="col-12 d-flex justify-content-center icon-custom-heading">
+                         Connect me Over
                          </Col>
                </Row>
-               <Row className="m-0">
-
+               <Row className="m-0 p-2">
+                         <Col className="col-12 d-flex justify-content-center">
+                              <i class='fab fa-github icon-custom'></i>
+                         </Col>
+               </Row>
+               <Row className="m-0 p-2">
+                         <Col className="col-12 d-flex justify-content-center">
+                              <i class='fab fa-linkedin icon-custom'></i>
+                         </Col>
+               </Row>
+               <Row className="m-0 p-2">
+                         <Col className="col-12 d-flex justify-content-center">
+                              <i class='fas fa-envelope-open icon-custom-2'></i>
+                         </Col>
+               </Row>
+               <Row className="m-0 p-3">
+                         <Col className="col-12 d-flex justify-content-center">
+                              <i class='fab fa-discord icon-custom-2'></i>
+                         </Col>
                </Row>
                <Row className="link-to m-0">
                          {/* <i class='far fa-address-card'></i> */}
                          <button>Resume</button>
                </Row>
-               <Row className="m-0 lowest">
+               {/* <Row className="m-0 lowest">
                     <Col className="d-flex justify-content-center visiters" style={{display: page == "portfolio" ? "flex":"none"}}>
                          <img style={{display: page == "portfolio" ? "flex":"none"}} align="center" src="https://visitor-badge.glitch.me/badge?page_id=0x7EVEN" />
                     </Col>
-               </Row>
+               </Row> */}
           </Col>
           <Container fluid  className="border navbar-custom d-block d-sm-block sticky d-md-none d-lg-none p-0 m-0">
                <Row className="text-center p-0 m-auto align-middle">

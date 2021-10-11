@@ -60,7 +60,7 @@
 }
 .link-to{
      position: absolute;
-     bottom:10%;
+     bottom:1%;
      width: 100%;
      padding:5% 5%;
      text-align: center;
@@ -76,6 +76,18 @@
      border:2px solid white;
      background-color:#4895FA ;
 }
+.icon-custom{
+     font-size: calc(.7 * (2vh + 3vw));
+     color: white;
+}
+.icon-custom-2{
+     font-size: calc(.6 * (2vh + 3vw));
+     color: white;
+}
+.icon-custom-heading{
+     font-size: calc(.3 * (2vh + 3vw));
+     color: white;
+     }
 /*
 @media (max-width: 766px) {
      .navbar-custom{
