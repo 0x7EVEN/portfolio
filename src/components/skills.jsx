@@ -7,13 +7,7 @@ import {ReactComponent as C} from "./icons/C.svg"
 import {ReactComponent as Mongo} from "./icons/MONGO.svg"
 import {ReactComponent as Redux} from "./icons/Redux.svg"
 import {ReactComponent as Asm} from "./icons/Assembly.svg"
-const Tile = styled.div`
-     width:100%;
-     height:200px;
-     background-color:${({color}) => color ? color : "white"};
-     align-items:center;
-     text-align:center;
-`
+
 const Card = styled.div`
      width:10%;
      height:120px;
