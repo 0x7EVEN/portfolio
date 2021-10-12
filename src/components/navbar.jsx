@@ -10,7 +10,6 @@ import {useEffect} from "react";
 import {Link} from "react-router-dom"
 import Journey from "./timeline";
 import axios from "axios";
-
 export default function Navbar ({page}) {
      const theme = true;
      async function visiters () {
@@ -55,22 +54,44 @@ export default function Navbar ({page}) {
                </Row>
                <Row className="m-0 p-2">
                          <Col className="col-12 d-flex justify-content-center">
+                              <a href="https://github.com/0x7EVEN"
+                              target="_blank"
+                              rel="noreferrer"
+                              >
                               <i class='fab fa-github icon-custom'></i>
+                              </a>
                          </Col>
                </Row>
                <Row className="m-0 p-2">
                          <Col className="col-12 d-flex justify-content-center">
+                              <a href="https://www.linkedin.com/in/arif-shaikh-191669205/"
+                              target="_blank"
+                              rel="noreferrer"
+                              >
                               <i class='fab fa-linkedin icon-custom'></i>
+                              </a>
                          </Col>
                </Row>
                <Row className="m-0 p-2">
-                         <Col className="col-12 d-flex justify-content-center">
-                              <i class='fas fa-envelope-open icon-custom-2'></i>
-                         </Col>
+                    <Col className="col-12 d-flex justify-content-center">
+                    <a
+                    className="email"
+                    href="mailto:ar1fshaikh@protonmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    title="Email"
+                    ><i class='fas fa-envelope-open icon-custom-2'></i>
+                    </a>
+                    </Col>
                </Row>
                <Row className="m-0 p-3">
                          <Col className="col-12 d-flex justify-content-center">
+                              <a href="https://discord.com/users/0xScar#6818"
+                              target="_blank"
+                              rel="noreferrer"
+                              >
                               <i class='fab fa-discord icon-custom'></i>
+                              </a>
                          </Col>
                </Row>
                <Row className="link-to m-0">
@@ -83,40 +104,30 @@ export default function Navbar ({page}) {
                     </Col>
                </Row> */}
           </Col>
-          <Container fluid  className="border navbar-custom d-block d-sm-block sticky d-md-none d-lg-none p-0 m-0">
+          <Container fluid  className="horizontal navbar-custom d-block d-sm-block sticky d-md-none d-lg-none p-0 m-0">
                <Row className="text-center p-0 m-auto align-middle">
-                    <Col className="border py-2 col-4 me-auto" >
-                         <div className="border p-0 m-0" >
+                    <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                               <Link to="/">
-                                   <div className="div-inline">home</div>
+                                   {/* <Homeicon/> */}
+                                   <i style={{fontSize:"36px",color:"#fff"}} class="fas fa-caret-square-up"></i>
                               </Link>
-                         </div>
                     </Col>
-                    <Col className="border col-2" >
-                         <div className="div-inline">
+                    <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                               <Link to="/projects">
-                         projects
-                              </Link>
-                         </div>
+                                        <i style={{fontSize:"36px",color:"#FF2626"}} class="fas fa-heart"></i>
+                                   </Link>
                     </Col>
-                    <Col className="border col-2" >
-                         <div className="div-inline">
-                              <Link to="/">
-                                   blogs
-                              </Link>
-                              </div>
-                    </Col>
-                    <Col className="border col-2" >
+                    <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                          <div className="div-inline">
                               <Link to="/about">
-                                   about
+                                        <i style={{fontSize:"36px",color:"#fff"}}class="far fa-address-card"></i>
                               </Link>
                          </div>
                     </Col>
-                    <Col className="border col-2" >
-                              <div className="div-inline">
-                              contact
-                         </div>
+                    <Col className="nav-icons-bottom py-2 col-3 m-auto" >
+                         <div className="div-inline">
+                                   <i style={{fontSize:"36px",color:"#c1c1c1"}} class="fas fa-phone-square-alt"></i>
+                              </div>
                     </Col>
                </Row>
                </Container>

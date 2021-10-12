@@ -81,12 +81,14 @@
   .skills-icons{
     color: #2973d4;
   }
+
+
 }
 .card-outer,.blob,.blob-2{
   align-content: center !important;
   align-items: center !important;
   margin:1% auto;
-  padding:2%;
+  padding:24px;
 }
 .card-outer>p,.blob p{
   margin-bottom: 0 !important;
@@ -102,5 +104,5 @@
 .skills-icons{
   color: #2973d4 !important;
   /* color:white; */
-  font-size: calc(0.5*(6.5vw+3.8vh));
+  font-size: 42px;
 }

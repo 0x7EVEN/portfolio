@@ -325,6 +325,7 @@ export default function Projects () {
           </Container></Col>
           <Col className="col-2 p-0 m-0 d-md-none d-sm-none"></Col></Row>
           </Container>
+          <Container className="py-5"></Container>
      </div>
 }
 AOS.init()
