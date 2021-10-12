@@ -73,9 +73,10 @@ export default function Home(){
           <Container  className="border my-3 py-5">
                     <Row>
                          <Col className="d-flex justify-content-center"><h1><code style={{color:"#2972d4"}}>Visits : 1007</code></h1>
-</Col>
+          </Col>
                </Row>
                </Container>
+          <Container className="py-5"></Container>
      </Col>
      </div>
 }

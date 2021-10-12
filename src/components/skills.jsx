@@ -9,10 +9,12 @@ import {ReactComponent as Redux} from "./icons/Redux.svg"
 import {ReactComponent as Asm} from "./icons/Assembly.svg"
 
 const Card = styled.div`
-     width:10%;
+     width:120px;
      height:120px;
      background-color:${({color}) => color ? color : "white"};
      text-align:center;
+     aling-content:center;
+     padding:25px;
 `
 
 
@@ -28,7 +30,7 @@ export default function Skills () {
                <Row>
                <h1>💪Tech Stack and Skills : </h1>
                </Row>
-               <Row className="px-5 py-0 my-0">
+               <Row className="px-0 px-sm-4 py-0 my-0">
                     {/* <Col>
                     <div className="blob p-0 m-0">
                          <p style={{marginTop:"2%"}}><i className='fab fa-js icon-custom skills-icons p-0 m-0'></i></p>
@@ -74,64 +76,80 @@ export default function Skills () {
                     </div>
                     </Col> */}
                </Row>
-          <Row className="py-0 px-5">
-               <Col className="col-12 d-flex justify-content-between">
+          <Row className="py-0 px-0 px-sm-4">
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><i className='fab fa-js icon-custom skills-icons p-0 m-0'></i></p>
                          <p className="m-0">JavaScript</p>
                     </Card>
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><i className='fab fa-html5 icon-custom skills-icons'></i></p>
                          <p className="m-0">HTML 5</p>
                     </Card>
-                    <Card className="card-outer">
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
+                         <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><C/></p>
                          <p className="m-0">C/C++</p>
-                    </Card>
+                              </Card>
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><i className='fas fa-code-branch icon-custom skills-icons'></i></p>
                          <p className="m-0">Git</p>
                     </Card>
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><SQL/></p>
                          <p className="m-0">SQL</p>
                     </Card>
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
-                         <p style={{marginTop:"2%"}}><Mongo/></p>
+                         <p style={{marginTop:"1%"}}><Mongo/></p>
                          <p className="m-0">MongoDB</p>
                     </Card>
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><i className='fab fa-python icon-custom skills-icons'></i></p>
                          <p className="m-0">Python</p>
                     </Card>
                </Col>
-
-               </Row>
-          <Row className="py-0 px-5">
-               <Col className="col-12 d-flex justify-content-between">
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><i className='fab fa-react icon-custom skills-icons'></i></p>
                          <p className="m-0">React</p>
                     </Card>
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><Redux/></p>
                          <p className="m-0">Redux</p>
                     </Card>
+               </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><i className='fab fa-bootstrap icon-custom skills-icons'></i></p>
                          <p className="m-0">BootStrap</p>
                     </Card>
+                              </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
                          <p style={{marginTop:"2%"}}><Asm/></p>
-                         <p className="m-0">Assembly 0x86</p>
+                         <p className="m-0">Assembly</p>
                     </Card>
+                              </Col>
+               <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
-                         <p style={{marginTop:"2%"}}><i className='fab fa-ubuntu icon-custom skills-icons'></i></p>
+                         <p style={{marginTop:"1%"}}><i className='fab fa-ubuntu icon-custom skills-icons'></i></p>
                          <p className="m-0">Ubuntu</p>
                     </Card>
                </Col>
-
-                    </Row>
+               </Row>
           </Container>
                <br/>
                <br/>
@@ -143,6 +161,7 @@ export default function Skills () {
                </Row>
           </Container>
           </Col>
+          <Container className="py-5"></Container>
      </div>
 }
 

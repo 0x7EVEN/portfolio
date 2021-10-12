@@ -11,25 +11,31 @@
      /* overflow-x: hidden;*/
      /* font-family: 'Source Code Pro', monospace; */
      font-size: 23px;
-     width: 90vw;
+     width: 100vw;
+     height: 8vh;;
      margin:auto;
      position: fixed;
      z-index: 5;
      bottom: 0;
-     left: 5vw;
      font-size: calc(.5 * (2vh + 2.1vw));
      align-content: center;
      align-items: center;
      text-decoration: underline;
 }
+.horizontal{
+     position:fixed;
+     left: 0;
+     bottom:0;
+}
 .div-inline{
      display: inline-block;
+     font-size: 15px;
 }
-.div-inline:hover{
-     transition: 0.1s;
-     border-bottom: 4px solid rgb(43, 42, 42);
+.nav-icons-bottom {
+     align-items: center;
+     text-align: center;
+     align-content: center;
 }
-
 .dark{
      /* background-color: #15181A; */
      background-color: transparent;
@@ -122,6 +128,9 @@
 img{
      width: 150px;
      height: 150px;;
+}
+.horizontal{
+     background-color: #2972d4;
 }
 .image-holder{
      align-items: center;;
