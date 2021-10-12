@@ -22,11 +22,11 @@ function App () {
           <Navbar page={"portfolio"} className="p-0 m-0 d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none" />
           <Home />
         </Route>
-        <Route path="/projects">
+        <Route path="/portfolio/projects">
           <Navbar page={"projects"} className="p-0 m-0 d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none" />
           <Projects />
         </Route>
-        <Route path="/about">
+        <Route path="/portfolio/about">
           <Navbar page={"about"} className="p-0 m-0 d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none" />
           <Skills />
         </Route>
