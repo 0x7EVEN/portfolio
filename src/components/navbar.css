@@ -73,7 +73,7 @@
      align-items: center;
 }
 
-.link-to button {
+.link-to a {
      width:70%;
      margin: auto;
      font-size: calc(.5 * (1.5vh + 2.1vw));
@@ -82,7 +82,9 @@
      border:none;
      padding:5px 15px;
      border:2px solid white;
+     text-align: center;
 }
+
 .icon-custom{
      font-size: calc(.7 * (2vh + 3vw));
      color: white;

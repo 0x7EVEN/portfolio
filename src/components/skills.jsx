@@ -7,7 +7,7 @@ import {ReactComponent as C} from "./icons/C.svg"
 import {ReactComponent as Mongo} from "./icons/MONGO.svg"
 import {ReactComponent as Redux} from "./icons/Redux.svg"
 import {ReactComponent as Asm} from "./icons/Assembly.svg"
-
+import {ReactComponent as BootStrap} from "./icons/Bootstrap.svg"
 const Card = styled.div`
      width:120px;
      height:120px;
@@ -133,7 +133,7 @@ export default function Skills () {
                </Col>
                <Col className="col-6 col-sm-4 col-md-3 col-lg-2">
                     <Card className="card-outer">
-                         <p style={{marginTop:"2%"}}><i className='fab fa-bootstrap icon-custom skills-icons'></i></p>
+                         <p style={{marginTop:"2%"}}><BootStrap/></p>
                          <p className="m-0">BootStrap</p>
                     </Card>
                               </Col>
@@ -157,7 +157,28 @@ export default function Skills () {
                <br/>
           <Container className="px-4">
                <Row>
-                    <Col><h1>😎 Accomplishments : </h1></Col>
+                         <Col><h1>😎 Accomplishments : </h1></Col>
+
+               </Row>
+                    <Row className="px-5">
+                         <Col>
+                              <Row>
+                              <h3> 1. Solved <span className="blue-text">200+ DSA</span> problems.</h3>
+                              </Row>
+                              <Row>
+
+                             <h3>  2. Extensive <span className="blue-text">500+ hands-on</span> Coding experience.</h3>
+                              </Row>
+                              <Row>
+                             <h3>  3. C.T.F. Player in <span className="blue-text">reversing and web</span> exploitations.</h3>
+                              </Row>
+                              <Row>
+                             <h3>  4. <span className="blue-text">Top 3%</span> on tryhackme.com - infosec learning platform.</h3>
+                              </Row>
+                              <Row>
+                             <h3>  5. <span className="blue-text">Top 10%</span> Chess (blitz) players at Lichess.</h3>
+                              </Row>
+                         </Col>
                </Row>
           </Container>
           </Col>

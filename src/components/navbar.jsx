@@ -49,7 +49,7 @@ export default function Navbar ({page}) {
                     </Row>
                <Row className="m-0 p-3">
                          <Col className="col-12 d-flex justify-content-center icon-custom-heading">
-                         Connect me Over
+                         Connect to me on
                          </Col>
                </Row>
                <Row className="m-0 p-2">
@@ -96,7 +96,13 @@ export default function Navbar ({page}) {
                </Row>
                <Row className="link-to m-0">
                          {/* <i class='far fa-address-card'></i> */}
-                         <button>Resume</button>
+                         <a
+                         href="https://drive.google.com/file/d/1DwAMK_FKfwnJJFmHP_4Crrp7QBYbWVcC/view?usp=sharing"
+                         target="_blank"
+                              rel="noreferrer"
+                         className="m-auto">
+                         Resume
+                         </a>
                </Row>
                {/* <Row className="m-0 lowest">
                     <Col className="d-flex justify-content-center visiters" style={{display: page == "portfolio" ? "flex":"none"}}>
@@ -109,25 +115,30 @@ export default function Navbar ({page}) {
                     <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                               <Link to="/">
                                    {/* <Homeicon/> */}
-                                   <i style={{fontSize:"36px",color:"#fff"}} class="fas fa-caret-square-up"></i>
+                                   <i style={{fontSize:"36px",color:"#E0E0E0"}} class="fas fa-caret-square-up"></i>
                               </Link>
                     </Col>
                     <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                               <Link to="/projects">
-                                        <i style={{fontSize:"36px",color:"#FF2626"}} class="fas fa-heart"></i>
+                                        <i style={{fontSize:"36px",color:"#B80A0A"}} class="fas fa-heart"></i>
                                    </Link>
                     </Col>
                     <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                          <div className="div-inline">
                               <Link to="/about">
-                                        <i style={{fontSize:"36px",color:"#fff"}}class="far fa-address-card"></i>
+                                        <i style={{fontSize:"36px",color:"#E0E0E0"}}class="far fa-address-card"></i>
                               </Link>
                          </div>
                     </Col>
                     <Col className="nav-icons-bottom py-2 col-3 m-auto" >
-                         <div className="div-inline">
-                                   <i style={{fontSize:"36px",color:"#c1c1c1"}} class="fas fa-phone-square-alt"></i>
-                              </div>
+                              <div className="div-inline">
+                                   <a href="tel:+917057522644"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                   >
+                              <i style={{fontSize: "36px", color: "#E0E0E0"}} class="fas fa-phone-alt"></i>
+                                   </a>
+                         </div>
                     </Col>
                </Row>
                </Container>
