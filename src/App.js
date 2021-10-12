@@ -3,10 +3,10 @@ import "./components/navbar.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import {Route, Switch} from "react-router-dom";
-import Navbar from './components/Navbar.jsx';
-import Home from './components/Home.jsx';
-import Projects from "./components/projects.jsx";
-import Skills from "./components/skills.jsx";
+import Navbar from './components/navbar';
+import Home from './components/Home';
+import Projects from "./components/projects";
+import Skills from "./components/skills";
 import {BrowserRouter} from "react-router-dom";
 
 function App () {
