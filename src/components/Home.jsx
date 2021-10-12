@@ -268,7 +268,7 @@ export default function Home(){
                style={{ width: 240,height:380 }}
                cover={<img alt="example"  className="card-img"  src="https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_FMjpg_UX1000_.jpg" />}
                >
-               <Meta title="Europe Street beat" />
+               <Meta title="Star Wars API" />
                </Card>
                </Col>
           </Row>
