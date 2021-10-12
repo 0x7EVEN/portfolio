@@ -45,28 +45,28 @@ export default function Journey({page}) {
     <Timeline>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color={page == "portfolio" ? "primary":"grey"}  />
+          <TimelineDot color={page === "portfolio" ? "primary":"grey"}  />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent><Link style={{fontSize:"18px"}}  to="/portfolio">Home</Link></TimelineContent>
+        <TimelineContent><Link style={{fontSize:"18px"}}  to="/">Home</Link></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color={page == "projects" ? "primary":"grey"}/>
+          <TimelineDot color={page === "projects" ? "primary":"grey"}/>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent><Link style={{fontSize:"18px"}} to="/portfolio/projects">projects</Link></TimelineContent>
+        <TimelineContent><Link style={{fontSize:"18px"}} to="/projects">projects</Link></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineDot color={page == "about" ? "primary":"grey"}/>
+          <TimelineDot color={page === "about" ? "primary":"grey"}/>
           <TimelineConnector  />
         </TimelineSeparator>
-        <TimelineContent><Link style={{fontSize:"18px"}} to="/portfolio/about">about</Link></TimelineContent>
+        <TimelineContent><Link style={{fontSize:"18px"}} to="/about">about</Link></TimelineContent>
       </TimelineItem>
           <TimelineItem>
           <TimelineSeparator>
-          <TimelineDot  color={page == "contact" ? "primary":"grey"}/>
+          <TimelineDot  color={page === "contact" ? "primary":"grey"}/>
           </TimelineSeparator>
           <TimelineContent  style={{fontSize:"18px"}}>Contact</TimelineContent>
           </TimelineItem>

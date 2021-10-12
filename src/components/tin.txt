@@ -1,0 +1,31 @@
+ // "homepage": "http://0x7EVEN.github.io/portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    // "deploy": "gh-pages -d build"
+
+
+app.js 54 /*
+
+      <Box
+        className="navbar"
+        direction="column"
+        height="720px"
+        width="medium"
+        basis="xlarge"
+        pad="medium"
+        background="#4a148c"
+        position="sticky"
+      >
+
+        {/* ============================================================================== /* <RangeInput
+          className="navigation-range"
+          value={value}
+        // onChange={}
+        /> */
+/*
+<SectionLinks />
+
+      </Box >*/
