@@ -11,7 +11,7 @@ import {Theme} from "../context/ThemeContext";
 import {Link} from "react-router-dom"
 import Journey from "./timeline";
 import axios from "axios";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Navbar ({page}) {
      const [visiter, setVisiter] = useState(1000);
@@ -72,7 +72,7 @@ export default function Navbar ({page}) {
                </Row>
                <Row className="m-0 p-3">
                          <Col className="col-12 d-flex justify-content-center">
-                              <i class='fab fa-discord icon-custom-2'></i>
+                              <i class='fab fa-discord icon-custom'></i>
                          </Col>
                </Row>
                <Row className="link-to m-0">

@@ -21,7 +21,7 @@ export default function Projects () {
                     <Carousel.Item>
                     <img
                          className="d-block w-100  p-0 m-0"
-                         src="https://ii2.pepperfry.com/media/wysiwyg/banners/HB02_Web_28092021_2x.jpg"
+                         src="https://img.republicworld.com/republic-prod/stories/images/15863458015e8db749828e7.png"
                          alt="First slide"
                     />
                     <Carousel.Caption>
@@ -32,7 +32,7 @@ export default function Projects () {
                     <Carousel.Item>
                     <img
                          className="d-block w-100"
-                         src="https://ii2.pepperfry.com/media/wysiwyg/banners/HB03_Web_28092021_2x.jpg"
+                         src="https://miro.medium.com/max/1838/1*K5NCFC7xXtfj-E-HsmJT_A.png"
                          alt="Second slide"
                     />
 
@@ -44,7 +44,7 @@ export default function Projects () {
                     <Carousel.Item>
                     <img
                          className="d-block w-100"
-                         src="https://ii2.pepperfry.com/media/wysiwyg/banners/HB02_Web_28092021_2x.jpg"
+                         src="https://repository-images.githubusercontent.com/286416324/2ab2f780-dfe8-11ea-8824-5b33a66808ac"
                          alt="Third slide"
                     />
 

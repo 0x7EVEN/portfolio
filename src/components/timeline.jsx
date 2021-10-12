@@ -55,14 +55,14 @@ export default function Journey({page}) {
           <TimelineDot color={page == "projects" ? "primary":"grey"}/>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent><Link style={{fontSize:"18px"}} to="/projects">projects</Link></TimelineContent>
+        <TimelineContent><Link style={{fontSize:"18px"}} to="/portfolio/projects">projects</Link></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color={page == "about" ? "primary":"grey"}/>
           <TimelineConnector  />
         </TimelineSeparator>
-        <TimelineContent><Link style={{fontSize:"18px"}} to="/about">about</Link></TimelineContent>
+        <TimelineContent><Link style={{fontSize:"18px"}} to="/portfolio/about">about</Link></TimelineContent>
       </TimelineItem>
           <TimelineItem>
           <TimelineSeparator>
