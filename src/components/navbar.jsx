@@ -11,7 +11,6 @@ import {Theme} from "../context/ThemeContext";
 import {Link} from "react-router-dom"
 import Journey from "./timeline";
 import axios from "axios";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Navbar ({page}) {
      const [visiter, setVisiter] = useState(1000);

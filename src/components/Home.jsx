@@ -204,7 +204,6 @@ import {Col, Row, Container} from "react-bootstrap"
 import {ReactComponent as Hero} from "./jamron.svg"
 import 'antd/dist/antd.css';
 import { Card } from 'antd';
-import Journey from "./timeline"
 import AOS from "aos"
 import "./home.css"
 import "./navbar.css"
