@@ -221,7 +221,7 @@ export default function Home(){
                     <div className="p-5">
                          <h2>Hi 👋 there !, it's me </h2>
                          <h1 className="m-0 p-0 extra-large-font">{"< Arif Shaikh />"}</h1>
-                         <h4 className="sub-heading">//💻 M.E.R.N. stack Developer,  🚩 C.T.F. player</h4>
+                         <h4 className="sub-heading">{"//"}💻 M.E.R.N. stack Developer,  🚩 C.T.F. player</h4>
                     </div>
                </Col>
                <Col className="col-12 col-lg-5 col-md-5 col-sm-12 order-md-1 order-sm-1 p-0 m-0">
@@ -231,7 +231,7 @@ export default function Home(){
                </Col>
           </Row>
                </Container>
-          <Container data-aos="fade-up" data-aos-duration="1000" className="border my-3 py-5">
+          <Container className="border my-3 py-5">
                <Row className="second">
                <h2>Projects</h2>
                <Col className="col-12 col-md-6 col-lg-3 my-2">

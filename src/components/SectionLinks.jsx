@@ -2,6 +2,8 @@ import {Box} from "grommet";
 import "./sectionlinks.css"
 
 export default function SectionLinks () {
+
+
      return (
           <Box className="section-link-outer" direction="column">
                <div className="section-link">

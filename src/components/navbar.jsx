@@ -5,23 +5,22 @@ import "./sectionlinks.css"
 import "./timeline.css"
 import "./Milestone.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container,Row,Col,Image } from 'react-bootstrap'
-import {useContext,useEffect,useState} from "react";
-import {Theme} from "../context/ThemeContext";
+import { Container,Row,Col } from 'react-bootstrap'
+import {useEffect} from "react";
 import {Link} from "react-router-dom"
 import Journey from "./timeline";
 import axios from "axios";
 
 export default function Navbar ({page}) {
-     const [visiter, setVisiter] = useState(1000);
+     const theme = true;
      async function visiters () {
-          const {data} = await axios.get("https://visitor-badge.glitch.me/badge?page_id=0x7EVEN")
+          const {data} = await axios.get("https://visitor-badge.glitch.me/badge?page_id=0x7EVEN");
+          console.log(data);
      }
      useEffect(() => {
           visiters()
      },[])
 
-     const theme = useContext(Theme);
      return (
           <div className={`${theme ? "light" : "dark"} w-100 p-0 m-0`} >
           <Col className="p-0 side-nav d-none col-none d-sm-none d-md-block col-md-2 col-lg-2">
@@ -88,7 +87,7 @@ export default function Navbar ({page}) {
                <Row className="text-center p-0 m-auto align-middle">
                     <Col className="border py-2 col-4 me-auto" >
                          <div className="border p-0 m-0" >
-                              <Link to="/portfolio">
+                              <Link to="/">
                                    <div className="div-inline">home</div>
                               </Link>
                          </div>

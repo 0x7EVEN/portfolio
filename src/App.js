@@ -13,18 +13,19 @@ function App () {
   return <div className="app p-0 m-0">
     <BrowserRouter>
       <Switch>
-        <Route exact path="/portfolio">
+        <Route exact path="/">
           <Navbar page={"portfolio"} className="p-0 m-0 d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none" />
           <Home />
         </Route>
-        <Route path="/portfolio/projects">
+        <Route path="/projects">
           <Navbar page={"projects"} className="p-0 m-0 d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none" />
           <Projects />
         </Route>
-        <Route path="/portfolio/about">
+        <Route path="/about">
           <Navbar page={"about"} className="p-0 m-0 d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none" />
           <Skills />
         </Route>
+        <Route ><h1>404</h1></Route>
       </Switch>
     </BrowserRouter>
   </div >;
@@ -32,27 +33,3 @@ function App () {
 // <div data-aos="flip-down" data-aos-duration="1000" className="App">
 AOS.init();
 export default App;
-/*
-
-      <Box
-        className="navbar"
-        direction="column"
-        height="720px"
-        width="medium"
-        basis="xlarge"
-        pad="medium"
-        background="#4a148c"
-        position="sticky"
-      >
-
-        {/* ============================================================================== /* <RangeInput
-          className="navigation-range"
-          value={value}
-        // onChange={}
-        /> */
-
-{/* =============================================================================== */}
-/*
-<SectionLinks />
-
-      </Box >*/
