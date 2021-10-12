@@ -1,20 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./components/navbar.css";
 import 'aos/dist/aos.css';
-import {RangeInput, Box} from 'grommet';
-import SectionLinks from './components/SectionLinks';
-import Milestones from './components/Home';
-import {useState} from 'react';
 import AOS from 'aos';
 import {Route, Switch} from "react-router-dom";
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Projects from "./components/projects";
-import Skills from "./components/skills";
+import Navbar from './components/Navbar.jsx';
+import Home from './components/Home.jsx';
+import Projects from "./components/projects.jsx";
+import Skills from "./components/skills.jsx";
 import {BrowserRouter} from "react-router-dom";
 
 function App () {
-  const [value, setValue] = useState(10);
   return <div className="app p-0 m-0">
     <BrowserRouter>
       <Switch>
