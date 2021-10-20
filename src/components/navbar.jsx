@@ -47,7 +47,7 @@ export default function Navbar ({page}) {
                          <Journey className="m-0"  page={page}></Journey>
                          </Col>
                     </Row>
-               <Row className="m-0 p-3">
+               <Row className="m-0 percent-4">
                          <Col className="col-12 d-flex justify-content-center icon-custom-heading">
                          Connect to me on
                          </Col>
