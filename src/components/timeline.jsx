@@ -48,7 +48,7 @@ export default function Journey({page}) {
           <TimelineDot color={page === "portfolio" ? "primary":"grey"}  />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent><Link style={{fontSize:"18px"}}  to="/">Home</Link></TimelineContent>
+        <TimelineContent><Link style={{fontSize:"18px"}}  to="/">home</Link></TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
@@ -62,13 +62,13 @@ export default function Journey({page}) {
           <TimelineDot color={page === "about" ? "primary":"grey"}/>
           <TimelineConnector  />
         </TimelineSeparator>
-        <TimelineContent><Link style={{fontSize:"18px"}} to="/about">about</Link></TimelineContent>
+        <TimelineContent><Link style={{fontSize:"18px"}} to="/about#tech-stack">about</Link></TimelineContent>
       </TimelineItem>
           <TimelineItem>
           <TimelineSeparator>
           <TimelineDot  color={page === "contact" ? "primary":"grey"}/>
           </TimelineSeparator>
-          <TimelineContent  style={{fontSize:"18px"}}>Contact</TimelineContent>
+          <TimelineContent  style={{fontSize:"18px"}}><a style={{fontSize:"18px"}} href="tel:7057522644">connect</a></TimelineContent>
           </TimelineItem>
      </Timeline>
   );

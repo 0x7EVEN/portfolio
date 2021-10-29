@@ -28,7 +28,7 @@ export default function Skills () {
                <br/>
                <br/>
                <Row>
-               <h1>💪Tech Stack and Skills : </h1>
+               <h1 id="tech-stack">💪Tech Stack and Skills : </h1>
                </Row>
                <Row className="px-0 px-sm-4 py-0 my-0">
                     {/* <Col>
@@ -167,13 +167,13 @@ export default function Skills () {
                               </Row>
                               <Row>
 
-                             <h3>  2. Extensive <span className="blue-text">500+ hands-on</span> Coding experience.</h3>
+                             <h3>  2. Extensive <span className="blue-text">500+ hrs hands-on</span> Coding experience.</h3>
                               </Row>
                               <Row>
-                             <h3>  3. C.T.F. Player in <span className="blue-text">reversing and web</span> exploitations.</h3>
+                             <h3>  3. C.T.F. Player in <span className="blue-text">Reversing/Bin and web</span> exploitations.</h3>
                               </Row>
                               <Row>
-                             <h3>  4. <span className="blue-text">Top 3%</span> on tryhackme.com - infosec learning platform.</h3>
+                             <h3>  4. <span className="blue-text">solved 51 labs</span> of web exploitation (OWASP top 10).</h3>
                               </Row>
                               <Row>
                              <h3>  5. <span className="blue-text">Top 10%</span> Chess (blitz) players at Lichess.</h3>

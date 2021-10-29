@@ -47,9 +47,9 @@ export default function Navbar ({page}) {
                          <Journey className="m-0"  page={page}></Journey>
                          </Col>
                     </Row>
-               <Row className="m-0 percent-4">
+               <Row className="my-1 percent-4">
                          <Col className="col-12 d-flex justify-content-center icon-custom-heading">
-                         Connect to me on
+                         connect me on
                          </Col>
                </Row>
                <Row className="m-0 p-2">
@@ -58,7 +58,7 @@ export default function Navbar ({page}) {
                               target="_blank"
                               rel="noreferrer"
                               >
-                              <i class='fab fa-github icon-custom'></i>
+                              <i className='fab fa-github icon-custom'></i>
                               </a>
                          </Col>
                </Row>
@@ -68,7 +68,7 @@ export default function Navbar ({page}) {
                               target="_blank"
                               rel="noreferrer"
                               >
-                              <i class='fab fa-linkedin icon-custom'></i>
+                              <i className='fab fa-linkedin icon-custom'></i>
                               </a>
                          </Col>
                </Row>
@@ -80,7 +80,7 @@ export default function Navbar ({page}) {
                     target="_blank"
                     rel="noreferrer"
                     title="Email"
-                    ><i class='fas fa-envelope-open icon-custom-2'></i>
+                    ><i className='fas fa-envelope-open icon-custom-2'></i>
                     </a>
                     </Col>
                </Row>
@@ -90,7 +90,7 @@ export default function Navbar ({page}) {
                               target="_blank"
                               rel="noreferrer"
                               >
-                              <i class='fab fa-discord icon-custom'></i>
+                              <i className='fab fa-discord icon-custom'></i>
                               </a>
                          </Col>
                </Row>
@@ -115,18 +115,18 @@ export default function Navbar ({page}) {
                     <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                               <Link to="/">
                                    {/* <Homeicon/> */}
-                                   <i style={{fontSize:"36px",color:"#E0E0E0"}} class="fas fa-caret-square-up"></i>
+                                   <i style={{fontSize:"36px",color:"#E0E0E0"}} className="fas fa-caret-square-up"></i>
                               </Link>
                     </Col>
                     <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                               <Link to="/projects">
-                                        <i style={{fontSize:"36px",color:"#B80A0A"}} class="fas fa-heart"></i>
+                                        <i style={{fontSize:"36px",color:"#B80A0A"}} className="fas fa-heart"></i>
                                    </Link>
                     </Col>
                     <Col className="nav-icons-bottom py-2 col-3 m-auto" >
                          <div className="div-inline">
                               <Link to="/about">
-                                        <i style={{fontSize:"36px",color:"#E0E0E0"}}class="far fa-address-card"></i>
+                                        <i style={{fontSize:"36px",color:"#E0E0E0"}}className="far fa-address-card"></i>
                               </Link>
                          </div>
                     </Col>
@@ -136,7 +136,7 @@ export default function Navbar ({page}) {
                                         target="_blank"
                                         rel="noreferrer"
                                    >
-                              <i style={{fontSize: "36px", color: "#E0E0E0"}} class="fas fa-phone-alt"></i>
+                              <i style={{fontSize: "36px", color: "#E0E0E0"}} className="fas fa-phone-alt"></i>
                                    </a>
                          </div>
                     </Col>
