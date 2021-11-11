@@ -3,7 +3,7 @@ import "./main.css"
 
 export default function Main(){
     return <div className="container-flex">
-        <nav className="navbar navbar-expand-sm navbar-light mb-1">
+        <nav className="navbar navbar-expand-sm navbar-light mb-1 mx-3">
         <ul className="navbar-nav">
             <li className="nav-item">
                 <a className="nav-link resume-button"  target="_blanck"rel="noreferrer"  href="https://drive.google.com/file/d/1DwAMK_FKfwnJJFmHP_4Crrp7QBYbWVcC/view">Resume</a>
