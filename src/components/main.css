@@ -16,6 +16,16 @@ h6 {
 div{
   /* border:1px solid red; */
 }
+.big-text{
+  font-size: 120px !important;
+  font-weight: 500;
+}
+.font-text-big{
+  font-size: 80px;
+}
+.light-text{
+  font-weight: 300;
+}
 .fw-light{
   font-weight: 400;
 }
