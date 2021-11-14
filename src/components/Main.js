@@ -117,7 +117,7 @@ export default function Main () {
                                 </div>
                                 <div className="projects-info py-3">
                                     <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://github.com/masai-course/arif_fw10_113/tree/master/unit-4/sprint-2/day-4/assignments/tik-tak">Github</a>
-                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://pepperfryclone-snilaji-gmailcom.vercel.app/">Demo</a>
+                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://tik-tak-toe-0x7even.vercel.app/">Demo</a>
                                 </div>
                             </div>                    </div>
 
