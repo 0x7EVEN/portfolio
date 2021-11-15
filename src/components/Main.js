@@ -81,7 +81,7 @@ export default function Main () {
                                 </div>
                                 <div className="projects-info py-3">
                                     <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://github.com/0x7EVEN/construct-week-2">Github</a>
-                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://pepperfryclone-snilaji-gmailcom.vercel.app/">Demo</a>
+                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://0x7even.github.io/project-presentation-MPL/mainScreen.html">Demo</a>
                                 </div>
                             </div>
                         </div>
