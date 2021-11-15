@@ -116,7 +116,7 @@ export default function Main () {
                                     <p className="projects-info">Tech Stack : HTML5  |  CSS3  | MongoDB  | ExpressJS | JavaScript</p>
                                 </div>
                                 <div className="projects-info py-3">
-                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://github.com/masai-course/arif_fw10_113/tree/master/unit-4/sprint-2/day-4/assignments/tik-tak">Github</a>
+                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://github.com/0x7EVEN/Tik-tac-toe">Github</a>
                                     <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://tik-tak-toe-0x7even.vercel.app/">Demo</a>
                                 </div>
                             </div>                    </div>
@@ -222,36 +222,31 @@ export default function Main () {
                     <div className="col-12 wrap align-content-center">
                         <div className="row mt-5 flex-column">
                             <div className="col-12">
-                                <h3 className="mb-4 fw-light">My Skills</h3>
+                                <h3 className="mb-4 fw-light">Things I am good at :</h3>
                             </div>
                             <div className="col-12 mt-3">
-                                <div className="progress-wrap">
+                                <div className="progress-wrap p-3">
                                     <h4 className="skill-title">Web Development</h4>
-                                    <div className="progress progress-style my-3">
-                                        <div className="progress-bar color-1" role="progressbar" aria-valuenow="75"
-                                            aria-valuemin="0" aria-valuemax="100" style={{width: "75%"}}>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 mt-3">
-                                <div className="progress-wrap">
+                                <div className="progress-wrap p-3">
                                     <h4 className="skill-title">Reverse Engineering/Malware Hunting</h4>
-                                    <div className="progress progress-style my-3">
+                                    {/* <div className="progress progress-style my-3">
                                         <div className="progress-bar color-1" role="progressbar" aria-valuenow="60"
                                             aria-valuemin="0" aria-valuemax="100" style={{width: "50%"}}>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-12 mt-3">
-                                <div className="progress-wrap">
+                                <div className="progress-wrap p-3">
                                     <h4 className="skill-title">Chess</h4>
-                                    <div className="progress progress-style my-3">
+                                    {/* <div className="progress progress-style my-3">
                                         <div className="progress-bar color-1" role="progressbar" aria-valuenow="85"
                                             aria-valuemin="0" aria-valuemax="100" style={{width: "60%"}}>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -260,7 +255,7 @@ export default function Main () {
             </section>
             <div className="py-5"></div>
             <section className="my-5">
-                <h1 className="display-4 mt-5">Accomplishment,</h1>
+                <h1 className="display-4 mt-5">Accomplishment</h1>
                 <h1 className="bold-text bg-text">Ranks</h1>
                 <div className="row d-flex">
                     <div className="col-md-10">
