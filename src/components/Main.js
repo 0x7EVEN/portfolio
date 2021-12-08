@@ -6,7 +6,7 @@ export default function Main () {
         <nav className="navbar navbar-expand-sm navbar-light mb-1 mx-3">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <a className="nav-link resume-button" target="_blanck" rel="noreferrer" href="https://drive.google.com/file/d/1DwAMK_FKfwnJJFmHP_4Crrp7QBYbWVcC/view">Resume</a>
+                    <a className="nav-link resume-button" target="_blanck" rel="noreferrer" href="https://drive.google.com/drive/folders/1HPMPAFaVK0Z3NYjMmk4VKf9khfXKoaIx?usp=sharing">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -31,8 +31,8 @@ export default function Main () {
                                 <h1 className="bold-text">About</h1>
                                 <div className="pt-5">
                                     {/* <h2 className="mb-3">Hello!</h2> */}
-                                    <h4 className="about-big">Curious, learning enthusiast and detail-
-                                        oriented aspiring full-stack developer with a specialization in MERN stack.
+                                    <h4 className="about-big">Curious, learning enthusiast and detail-oriented
+                                        aspiring full-stack developer with a specialization in MERN stack.
                                         Self motivated and hardworking, with a keen interest in implementing and learning.
                                         Apart from Web Development
                                         I have keen interest in Cybersecurity and CTF
@@ -275,7 +275,7 @@ export default function Main () {
                             <div className="py-3">
                                 <div className="desc">
                                     <h2 className="skill-title">PortSwigger - Level 7</h2>
-                                    <p className="my-2">These challenges aim to get familier with  OWSP top 10 vulnerabilities, solved 51 web vulnerability labs.</p>
+                                    <p className="my-2">These challenges aim to get familier with  OWSP top 10 vulnerabilities, completed 51 of web vulnerability labs.</p>
                                 </div>
                             </div>
 
@@ -285,6 +285,14 @@ export default function Main () {
                                     <p className="my-2">Lichess is open source and one of the best chess platform.Current ELO 2050 with 2099 being hieghts of all time.</p>
                                 </div>
                             </div>
+
+                            <div className="py-3">
+                                <div className="desc">
+                                    <h2 className="skill-title">Certificates (Sololearn)  - C, C++, PHP, Python, React {"&"} Redux, SQL.</h2>
+                                    <p className="my-2">Sololearn is the world's largest community of people learning to code. With over 25 programming courses, with options of both free and paid courses.</p>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
