@@ -67,24 +67,7 @@ export default function Main () {
                 <h1 className="bold-text bg-text">Works</h1>
                 <div className="row mt-5 mb-5">
                     <div className="col-12">
-                        <div className="row my-2 py-2">
-                            <div className="col-12 col-md-6 p">
-                                <img className="img-fluid" src="https://img.republicworld.com/republic-prod/stories/images/15863458015e8db749828e7.png" alt="MPL hompage" />
-                            </div>
-                            <div className="col-12 col-md-6 py-2">
-                                <h5>MPL clone</h5>
-                                <div>
-                                    <p className="projects-info pt-1">Web application for providing information about MPL gaming app. Along with products page.</p>
-                                </div>
-                                <div>
-                                    <p className="projects-info">Tech Stack : HTML5  |  CSS3  | MongoDB  | ExpressJS | JavaScript</p>
-                                </div>
-                                <div className="projects-info py-3">
-                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://github.com/0x7EVEN/construct-week-2">Github</a>
-                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://0x7even.github.io/project-presentation-MPL/mainScreen.html">Demo</a>
-                                </div>
-                            </div>
-                        </div>
+
                         <div className="row my-5 mx-0 py-2">
                             <div className="col-12 col-md-6">
                                 <img className="img-fluid" src="https://miro.medium.com/max/1838/1*K5NCFC7xXtfj-E-HsmJT_A.png" alt="MPL hompage" />
@@ -100,6 +83,25 @@ export default function Main () {
                                 <div className="projects-info py-3">
                                     <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://github.com/0x7EVEN/pepperfry-clone">Github</a>
                                     <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://pepperfryclone-snilaji-gmailcom.vercel.app/">Demo</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row my-2 py-2">
+                            <div className="col-12 col-md-6 p">
+                                <img className="img-fluid" src="https://img.republicworld.com/republic-prod/stories/images/15863458015e8db749828e7.png" alt="MPL hompage" />
+                            </div>
+                            <div className="col-12 col-md-6 py-2">
+                                <h5>MPL clone</h5>
+                                <div>
+                                    <p className="projects-info pt-1">Web application for providing information about MPL gaming app. Along with products page.</p>
+                                </div>
+                                <div>
+                                    <p className="projects-info">Tech Stack : HTML5  |  CSS3  | MongoDB  | ExpressJS | JavaScript</p>
+                                </div>
+                                <div className="projects-info py-3">
+                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://github.com/0x7EVEN/construct-week-2">Github</a>
+                                    <a className="project-links mx-2" target="_blanck" rel="noreferrer" href="https://0x7even.github.io/project-presentation-MPL/mainScreen.html">Demo</a>
                                 </div>
                             </div>
                         </div>
