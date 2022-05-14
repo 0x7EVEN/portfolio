@@ -14,7 +14,7 @@ h6 {
   font-weight: 600;
 }
 div{
-  /* border:1px solid red; */
+  border:1px solid red;
 }
 .big-text{
   font-size: 120px !important;
@@ -272,7 +272,9 @@ body {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 5px;
-  font-size: 15px; }
-  .blog-entry .meta > div a {
-    font-size: 15px;
-    color: #8c8c8c; }
+  font-size: 15px; 
+}
+.blog-entry .meta > div a {
+  font-size: 15px;
+  color: #8c8c8c;
+  }

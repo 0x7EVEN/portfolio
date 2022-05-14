@@ -1,5 +1,6 @@
 import "./main.css";
-
+import heroImg from "./icons/280624363_573847370727522_1347727002567774619_n.jpeg"
+import debug from "./icons/debug.svg"
 
 export default function Main () {
     return <div className="container-flex">
@@ -18,8 +19,10 @@ export default function Main () {
                         <p className="lead pl-2">Full Stack Web Developer, ctf player</p>
                     </div>
                     <div className="col-lg-4 text-center my-auto pb-5">
-                        <img className="img-fluid blob"
-                            src="https://avatars.githubusercontent.com/u/76391543?v=4" alt="hero" /></div>
+                        {/* <img className="img-fluid blob"
+                            src="https://avatars.githubusercontent.com/u/76391543?v=4" alt="hero" /></div> */}
+                            <img src={heroImg} />
+                    </div>
                 </div>
             </section>
             <section className="mb-5">
@@ -29,7 +32,7 @@ export default function Main () {
                         <div className="col-12 wrap text-left">
                             <div className="about-desc">
                                 <h1 className="bold-text">About</h1>
-                                <div className="pt-5">
+                                <div className="col pt-5 mx-0">
                                     {/* <h2 className="mb-3">Hello!</h2> */}
                                     <h4 className="about-big">Curious, learning enthusiast and detail-oriented
                                         aspiring full-stack developer with a specialization in MERN stack.
@@ -62,9 +65,9 @@ export default function Main () {
                 </div>
             </section>
             <div className="py-5"></div>
-            <section className="mt-5">
-                <h1 className="display-4 mt-5">Some of my Projects,</h1>
-                <h1 className="bold-text bg-text">Works</h1>
+             <section className="mt-5">
+                <h1 className="display-4 mt-5">Blogs</h1>
+                <h1 className="bold-text bg-text">Writings</h1>
                 <div className="row mt-5 mb-5">
                     <div className="col-12">
 
@@ -163,8 +166,8 @@ export default function Main () {
                             </div>
                         </div>
                     </div> */}
-                </div>
-            </section>
+                </div> 
+            </section> 
             <section className="interests pt-5 pb-5">
 
                 <h1 className="display-4">Tech I'm familiar with,</h1>
@@ -172,57 +175,60 @@ export default function Main () {
 
                 <div className="row pt-5">
                     <div className="col-lg-3 col-md-4">
-                        <div className="icon-box">
-                            <i className="fab fa-js"></i>
-                            <h3>JavaScript</h3>
-                        </div>
+                    <div className="icon-box">
+                        <i class="fas fa-cat"></i>
+                            <h3>Pentesting</h3>
+                    </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <i className="fab fa-css3-alt"></i>
-                            <h3>CSS3</h3>
+                        {/* <i class="fa-solid fa-ban-bug"></i> */}
+                        {/* <img src={debug}/> */}
+                        {/* <i class="fas fa-bug"></i> */}
+                        <i class="fas fa-flag"></i>
+                            <h3>CTF compt</h3>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
+                    {/* <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
                             <i className="fab fa-html5"></i>
-                            <h3>HTML5</h3>
+                            <h3>Front-End Dev</h3>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
+                    </div> */}
+                    <div className="col-lg-3 col-md-4">
                         <div className="icon-box">
-                            <i className="fab fa-react"></i>
-                            <h3>React</h3>
+                            <i className="fas fa-server"></i>
+                            <h3>Software dev</h3>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 mt-4">
+                    <div className="col-lg-3 col-md-4 mt-lg-0">
+                        <div className="icon-box">
+                        <i class="fas fa-code"></i>
+                            <h3>Automation</h3>
+                        </div>
+                    </div>
+                    {/* <div className="col-lg-3 col-md-4 mt-4">
                         <div className="icon-box">
                             <i className="fas fa-database"></i>
                             <h3>DBMS</h3>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-4 mt-4">
+                    </div> */}
+                    {/* <div className="col-lg-3 col-md-4 mt-4">
                         <div className="icon-box">
                             <i className="fab fa-python"></i>
                             <h3>Python</h3>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-4 mt-4">
-                        <div className="icon-box">
-                            <i className="fas fa-server"></i>
-                            <h3>Express</h3>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-4 mt-4">
+                    </div> */}
+                    {/* <div className="col-lg-3 col-md-4 mt-4">
                         <div className="icon-box">
                             <i className="fas fa-code-branch"></i>
                             <h3>Github</h3>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="row">
                     <div className="col-12 wrap align-content-center">
-                        <div className="row mt-5 flex-column">
+                        <div className="row mt-5 flex-column mx-0">
                             <div className="col-12">
                                 <h3 className="mb-4 fw-light">Things I am good at :</h3>
                             </div>
