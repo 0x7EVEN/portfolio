@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.navbar-custom{
+     /* min-height: 10vh; */
+     /* background-color: #212121; */
+     /* position: -webkit-sticky; */
+     /* position: sticky; */
+     /* width: 100vw; */
+     /* font-family: 'IBM Plex Mono', monospace;     overflow-y: scroll; */
+     /* overflow-x: hidden;*/
+     /* font-family: 'Source Code Pro', monospace; */
+     font-size: 23px;
+     width: 100vw;
+     height: 8vh;;
+     margin:auto;
+     position: fixed;
+     z-index: 5;
+     bottom: 0;
+     font-size: calc(.5 * (2vh + 2.1vw));
+     align-content: center;
+     align-items: center;
+     text-decoration: underline;
+}
+.horizontal{
+     position:fixed;
+     left: 0;
+     bottom:0;
+}
+.div-inline{
+     display: inline-block;
+     font-size: 15px;
+}
+.nav-icons-bottom {
+     align-items: center;
+     text-align: center;
+     align-content: center;
+}
+.dark{
+     /* background-color: #15181A; */
+     background-color: transparent;
+     color: white;
+}
+.percent-4{
+     padding:3%;
+}
+.light{
+     background-color:white ;
+     color: #000;
+}
+.shadow-effect{
+     box-shadow: 5px 10px #888888
+}
+.timeline-outer{
+     background-color: white;
+
+}
+.visiters img,.visiters svg{
+     margin: auto;
+     align-self:center;
+     max-width: 90px;
+     max-height: 30px;
+}
+.lowest *{
+     position: absolute;
+     bottom: 0;
+     align-items: center;
+     text-align: center;
+}
+.link-to{
+     position: absolute;
+     bottom:1%;
+     width: 100%;
+     padding:5% 5%;
+     text-align: center;
+     align-items: center;
+}
+
+.link-to a {
+     width:70%;
+     margin: auto;
+     font-size: calc(.5 * (1.5vh + 2.1vw));
+     background-color:#3d88eb;
+     color:white;
+     border:none;
+     padding:5px 15px;
+     border:2px solid white;
+     text-align: center;
+}
+
+.icon-custom{
+     font-size: calc(.7 * (2vh + 3vw));
+     color: white;
+}
+.icon-custom-2{
+     font-size: calc(.6 * (2vh + 3vw));
+     color: white;
+}
+.icon-custom-heading{
+     font-size: calc(.3 * (2vh + 3vw));
+     color: white;
+     }
+/*
+@media (max-width: 766px) {
+     .navbar-custom{
+          display: none;
+     }
+}
+@media (max-width: 992px) {
+     a h3{
+          font-size: medium !important;
+     } */
+
+.custom-control-input:focus ~
+     .custom-control-label::before {
+          border-color: rgb(37, 30, 37) !important;
+          box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0) !important;
+     }
+     .custom-control-input:checked ~
+     .custom-control-label::before {
+               border-color: violet !important;
+               background-color: violet !important;
+     }
+     .custom-control-input:active ~
+     .custom-control-label::before {
+               background-color: violet !important;
+               border-color: violet !important;
+     }
+     .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
+          border-color: violet !important;
+     }
+
+img{
+     width: 150px;
+     height: 150px;;
+}
+.horizontal{
+     background-color: #2972d4;
+}
+.image-holder{
+     align-items: center;;
+     display: flex;
+     justify-content: center;
+     margin: auto;
+     border:1px solid black;
+}
+a{
+     text-decoration: none !important;
+     text-align: left;
+}
+a h3{
+     color:#7f7f92;
+     text-decoration: none;
+     text-align: left;
+     font-weight: 650 !important;
+}
+a  h3:hover  {
+     text-decoration: underline;
+}
+/*
+.navigation-range{
+     margin-top: 300px;
+     margin-left: -70px;
+     height: 700px;
+     transform: rotate(90deg);
+} */
+
