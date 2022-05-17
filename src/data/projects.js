@@ -18,10 +18,10 @@ const data = [
     image: '/images/pepperfry-clone.jpg',
     date: '2021-06-28',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'Full stack app with NoSQL database'
-      + 'You can email me for a copy.',
+      'Created pepperfry clone using React and Express with NoSQL database in 5 days'
+      + 'log in, Sign up, add to cart, add to favorites, similar products, and product categories feature'
+      + 'search feature'
+      + 'fully dynamic and desktop design',
   },
   {
     title: 'Purchase flow',
