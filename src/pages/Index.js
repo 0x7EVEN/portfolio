@@ -12,9 +12,9 @@ const Index = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/">Who am I ?</Link></h2>
-          <p> Learner, {'<Programmer/>'}, CTFer</p>
+          <p>Learner, {'<Programmer/>'}, CTFer</p>
+          <p>fitness freak, Mixed Martial Art</p>
           <p>Sketcher, Chess player</p>
-          <p>fitness freak</p>
           <p>Civil Engineer</p>
         </div>
       </header>

@@ -2,6 +2,7 @@
 
 .bm-item-list {
   margin-top: 0;
+  border:none;
 }
 
 .menu-hover {
@@ -14,6 +15,7 @@
 
 .hamburger-ul {
   display: block;
+  border : 0px solid white !important;
 
   li a h3 {
     border: 0;
@@ -28,10 +30,12 @@
 
   li {
     display: block !important;
+    border : 0px solid white;
   }
 
   h3 {
     font-size: 0.7em;
+    border : 0px solid white;
   }
 
   .index-li {
