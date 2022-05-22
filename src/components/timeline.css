@@ -1,0 +1,16 @@
+.icon{
+     background-color: white;
+     color: white;
+     margin: 0;;
+     padding: 0;
+}
+* .timeline-outer{
+     background-color: black;
+     color: white !important;
+     font-size: calc(.2 * (2vh + 2.1vw)) !important;
+;
+}
+.ant-timeline-item-head-custom{
+     padding: 0;
+     background-color: black;
+}

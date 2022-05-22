@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import Main from '../layouts/Main';
+/* eslint-disable */
+import ContactIcons from '../components/Contact/ContactIcons';
 
 const Index = () => (
   <Main
@@ -16,6 +17,11 @@ const Index = () => (
           <p>fitness freak, Mixed Martial Art</p>
           <p>Sketcher, Chess player</p>
           <p>Civil Engineer</p>
+        </div>
+        <div>
+        <section style={{"marginTop":"10px","marginRight":"20px"}} id="main-contact">
+            <ContactIcons />
+        </section>
         </div>
       </header>
       <p> Welcome to my portfolio. Please feel free to read more <Link to="/about">about me</Link>,
