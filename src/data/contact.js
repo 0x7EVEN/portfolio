@@ -8,14 +8,14 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/0x7even',
-    label: 'Github',
-    icon: faGithub,
-  },
-  {
     link: 'https://www.instagram.com/ar1fshaikh/',
     label: 'Instagram',
     icon: faInstagram,
+  },
+  {
+    link: 'https://github.com/0x7even',
+    label: 'Github',
+    icon: faGithub,
   },
   {
     link: 'https://in.linkedin.com/in/arif-shaikh-191669205',
