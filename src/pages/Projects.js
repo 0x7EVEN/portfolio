@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Cell from '../../components/projects/Cell';
+import Cell from './Cell';
 import data from '../data/projects';
 
 const Projects = () => (
