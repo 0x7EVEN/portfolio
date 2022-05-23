@@ -1,5 +1,16 @@
 const positions = [
   {
+    company: 'Lichess',
+    position: 'International Class - A',
+    link: 'https://lichess.org/Ace149',
+    daterange: 'December 2021 - Present',
+    points: [
+      'Achieved ELO of 2100.',
+      'Categories played - blitzs, Rapid with some tournament points',
+      'with top 10% chess players on platform worldwide',
+    ],
+  },
+  {
     company: 'OLA',
     position: 'SDE - I',
     link: 'https://olaelectric.com',
