@@ -23,16 +23,6 @@ const data = [
       + 'search feature'
       + 'fully dynamic and desktop design',
   },
-  {
-    title: 'Purchase flow',
-    subtitle: 'Purchase flow of olaelectric',
-    image: '/images/purchase-flow.jpg',
-    date: '2022-01-01',
-    desc:
-      'Future of scooters, Electric and emission free, eco-friendly electric scooters'
-      + 'Purchase the olaelectric scooter '
-      + 'to continue hosting.',
-  },
 ];
 
 export default data;
