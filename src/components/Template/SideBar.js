@@ -9,7 +9,8 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`https://avatars.githubusercontent.com/u/76391543?v=4`} alt="" />
+        {/* <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" /> */}
       </Link>
       <header>
         <h2>Aarif Shaikh</h2>

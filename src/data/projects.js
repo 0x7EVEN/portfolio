@@ -24,8 +24,8 @@ const data = [
       + 'You can email me for a copy.',
   },
   {
-    title: 'Purchase flow',
-    subtitle: 'Purchase flow of olaelectric',
+    title: 'Olaelectric',
+    subtitle: 'olaelectric website and subdomains',
     image: '/images/purchase-flow.jpg',
     date: '2022-01-01',
     desc:
