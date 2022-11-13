@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+// const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src="https://avatars.githubusercontent.com/u/76391543?v=4" alt="" />
       </Link>
       <header>
         <h2>Aarif Shaikh</h2>
