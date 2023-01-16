@@ -15,8 +15,7 @@ const Index = () => (
           <h2 data-testid="heading"><Link to="/">Who am I ?</Link></h2>
           <p>Learner, {'<Programmer/>'}, CTFer</p>
           <p>Sketcher, Chess player</p>
-          <p>Mixed Martial Art</p>
-          <p>Civil Engineer</p>
+          <p>Civil Er</p>
         </div>
         <div>
         <section style={{"marginTop":"10px","marginRight":"20px"}} id="main-contact">
