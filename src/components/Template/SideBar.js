@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
