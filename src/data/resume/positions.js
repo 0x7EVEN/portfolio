@@ -11,6 +11,17 @@ const positions = [
     ],
   },
   {
+    company: 'OLA',
+    position: 'Security Engineer',
+    link: 'https://whitehat.olacabs.com',
+    daterange: 'March 2021 - Present',
+    points: [
+      'Worked for securing ola infrastructure',
+      'Code review, Application penetration testing, Security assement',
+      'Automating testing, designing secure architecture',
+    ],
+  },
+  {
     company: 'CTF',
     position: 'Player',
     link: 'http://tryhackme.com/p/7EVEN',
