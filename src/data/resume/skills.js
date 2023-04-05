@@ -1,4 +1,3 @@
-
 const skills = [
   {
     title: 'Javascript',
