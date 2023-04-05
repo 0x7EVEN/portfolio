@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import ContactIcons from '../Contact/ContactIcons';
 
 const SideBar = () => (
@@ -8,7 +7,6 @@ const SideBar = () => (
     <section id="intro">
       <Link to="/" className="logo">
         <img src={`https://avatars.githubusercontent.com/u/76391543?v=4`} alt="" />
-        {/* <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" /> */}
       </Link>
       <header>
         <h2>Aarif Shaikh</h2>
