@@ -11,10 +11,20 @@ const positions = [
     ],
   },
   {
-    company: 'OLA',
+    company: 'Olaelectric',
     position: 'SDE - I',
     link: 'https://olaelectric.com',
-    daterange: 'December 2021 - Present',
+    daterange: 'December 2021 - Apr 2023',
+    points: [
+      'Worked with purchase flow of olaelectric',
+      'Built production, on-line, end-to-end optimized websites with React, Vue etc.',
+      'Worked with deployments and automation',
+    ],
+  },{
+    company: 'OLA',
+    position: 'Cybersecurity Engineer',
+    link: 'https://olacabs.com',
+    daterange: 'December 2021 - Apr 2023',
     points: [
       'Worked with purchase flow of olaelectric',
       'Built production, on-line, end-to-end optimized websites with React, Vue etc.',
