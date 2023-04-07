@@ -20,7 +20,7 @@ const positions = [
       'Code review, Application penetration testing, Security assement',
       'Automating testing, designing secure architecture',
     ],
-  }, 
+  },
   {
     company: 'CTF',
     position: 'Player',
