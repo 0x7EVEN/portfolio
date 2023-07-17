@@ -9,7 +9,7 @@ const SideBar = () => (
         <img src="https://avatars.githubusercontent.com/u/76391543?v=4" alt="" />
       </Link>
       <header>
-        <h2>Aarif Shaikh</h2>
+        <h2>Arif Shaikh</h2>
         <p><a href="mailto:ar1fshaikh@protonmail.com">ar1fshaikh@protonmail.com</a></p>
       </header>
     </section>
