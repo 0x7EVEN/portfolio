@@ -76,7 +76,7 @@ const EmailLink = () => {
     >
       <a href="mailto:ar1fshaikh@protonmail.com">
         <span>{message}</span>
-        <span>{' to  '}ar1fshaikh@protonmail.com</span>
+        <span>{' to  '}ar1fshaikh@wearehackerone.com</span>
       </a>
     </div>
   );
