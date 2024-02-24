@@ -18,7 +18,7 @@
 		}
 	}
 
-	.education {
+	.Achievements {
 
 		.title {
 			text-align: center;
@@ -28,11 +28,13 @@
 	.experience {
 		.title {
 			text-align: center;
+			margin-top: 4em;
 		}
 		.job {
 			margin: 1em;
 			p{
 				margin: 0;
+				letter-spacing: 1em;
 			}
 		}
 	}
@@ -42,7 +44,9 @@
 			li {
 				margin: 0;
 				padding: 0;
-					font-size: .9em;
+					font-size: .5em;
+					letter-spacing: 0.12em;
+					font: inherit;
 			}
 		}
 	}
@@ -96,6 +100,7 @@
 
 	.school {
 		text-transform: none;
+		font-size: 0.7em !important;
 		padding-top: 0.3em;
 		margin-bottom: 1em;
 	}

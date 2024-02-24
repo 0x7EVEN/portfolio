@@ -20,7 +20,8 @@ const positions = [
       'Built production, on-line, end-to-end optimized websites with React, Vue etc.',
       'Worked with deployments and automation',
     ],
-  },{
+  },
+  {
     company: 'OLA',
     position: 'Cybersecurity Engineer',
     link: 'https://olacabs.com',

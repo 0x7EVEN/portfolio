@@ -308,7 +308,7 @@ export default function Main () {
             <div className="py-5"></div>
             <section>
                 <div className="my-5">
-                    <h1 className="display-4 mt-5">Education</h1>
+                    <h1 className="display-4 mt-5">Achievements</h1>
                     <h1 className="bold-text bg-text">Academics</h1>
                     <div className="py-3">
                         <div className="desc">

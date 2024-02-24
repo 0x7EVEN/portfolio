@@ -3,69 +3,54 @@
 
 const skills = [
   {
-    title: 'Javascript',
+    title: 'Javascript & Typescript',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Languages'],
   },
   {
     title: 'Node.JS',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
+    competency: 4,
+    category: ['Web Development'],
   },
   {
     title: 'React',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development'],
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 3,
     category: ['Tools', 'Languages'],
   },
   {
     title: 'Amazon Web Services',
-    competency: 4,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
     competency: 3,
-    category: ['Web Development', 'Databases'],
+    category: ['Web Development', 'Tools'],
   },
   {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'Assembly',
     competency: 4,
+    category: ['Languages', 'CTFing', 'Pentesting'],
+  },
+  {
+    title: 'Exploit Development - Shellcoding/Scripting',
+    competency: 4,
+    category: ['CTFing', 'Pentesting'],
+  },
+  {
+    title: 'Database stack - NoSql/PostgreSQL/SQLite3/SQL',
+    competency: 3,
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
-    title: 'Redis',
+    title: 'API testing - Burpsuit/Scripting/Automating',
     competency: 3,
-    category: ['Web Development', 'Databases'],
+    category: ['Web Development', 'Pentesting', 'Tools'],
   },
   {
     title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 2,
-    category: ['Web Development', 'Python'],
+    competency: 3,
+    category: ['Web Development'],
   },
   {
     title: 'Git/Mercurial',
@@ -74,18 +59,18 @@ const skills = [
   },
   {
     title: 'Binary Analysis',
-    competency: 2,
+    competency: 4,
     category: ['CTFing', 'Pentesting', 'Linux'],
   },
   {
     title: 'Web exploitation',
-    competency: 3,
+    competency: 4,
     category: ['CTFing', 'Web Development'],
   },
   {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    title: 'Communication',
+    competency: 4,
+    category: ['Web Development'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
@@ -95,7 +80,7 @@ const skills = [
   {
     title: 'Python',
     competency: 4,
-    category: ['Languages', 'Python'],
+    category: ['Languages'],
   },
   {
     title: 'C++',
@@ -103,28 +88,23 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Assembly',
-    competency: 3,
-    category: ['Languages'],
-  },
-  {
     title: 'PHP',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
     title: 'C',
-    competency: 2,
+    competency: 3,
     category: ['CTFing', 'Languages'],
   },
   {
     title: 'Cryptography',
-    competency: 2,
+    competency: 4,
     category: ['CTFing'],
   },
   {
-    title: 'GBD',
-    competency: 3,
+    title: 'Debugging/Reverse Engineering - GBD/Web Debug/IDA/etc',
+    competency: 4,
     category: ['CTFing', 'Tools'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));

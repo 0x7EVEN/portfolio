@@ -1,34 +1,34 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Degree from './Education/Degree';
+import Ranks from './Education/Ranks';
 
-const Education = ({ data }) => (
-  <div className="education">
-    <div className="link-to" id="education" />
+const Achievements = ({ data }) => (
+  <div className="Achievements">
+    <div className="link-to" id="Achievements" />
     <div className="title">
-      <h3>Education</h3>
+      <h3>Achievements</h3>
     </div>
     {data.map((degree) => (
-      <Degree
+      <Ranks
         data={degree}
-        key={degree.school}
+        key={degree.platoform}
       />
     ))}
   </div>
 );
 
-Education.propTypes = {
+Achievements.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
-    school: PropTypes.string,
-    degree: PropTypes.string,
+    platoform: PropTypes.string,
+    rank: PropTypes.string,
     link: PropTypes.string,
     year: PropTypes.number,
   })),
 };
 
-Education.defaultProps = {
+Achievements.defaultProps = {
   data: [],
 };
 
-export default Education;
+export default Achievements;
