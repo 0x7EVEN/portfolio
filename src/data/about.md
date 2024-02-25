@@ -20,6 +20,7 @@ Currently,
 # I like
 
 - CTFs
+- Blog Writing - [Medium](https://ar1fshaikh.medium.com)
 - Chess
 - Swimming
 - Problem solving
