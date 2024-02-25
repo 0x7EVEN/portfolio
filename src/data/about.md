@@ -5,7 +5,7 @@ Curious, learning enthusiast and detail-oriented cybersecurity engineering (Web,
 
 # Currently
 
-At OLA, I have learned how to work with teams, achieve together, develop relationships, handle requirements, and while working on development side I build softwares with [React](https://react.org/), [Node.Js](https://nodejs.org/en).Currently I am contributing to security in multiple domains from software design and architecture review, performing security review of implementations and hands on testing of the same, apart from job I take part in CTF competitions in diverse categories like pwn(Binary Exploitation), Reverse Engineering, Web Exploitation etc, recently I got yellow belt for this contribution on [pwncollege](https://pwn.college) among very few globally 😉.
+At OLA, I have learned how to work with teams, achieve together, develop relationships, handle requirements, and while working on development side I build softwares with [React](https://react.org/), [Node.Js](https://nodejs.org/en).Currently I am contributing to security in multiple domains from software design and architecture review, performing security review of implementations and hands on testing of the same, apart from job I take part in CTF competitions in diverse categories like pwn(Binary Exploitation), Reverse Engineering, Web Exploitation etc, recently I got yellow belt for this contribution on [pwncollege](https://pwn.college) among very few globally 😉, apart from this I recently started writing blogs about bug bounty and CTF writeups you can check them out on [Medium](https://ar1fshaikh.medium.com).
 
 # Some history
 
