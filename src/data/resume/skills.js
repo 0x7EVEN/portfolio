@@ -44,7 +44,7 @@ const skills = [
   },
   {
     title: 'API testing - Burpsuit/Scripting/Automating',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Pentesting', 'Tools'],
   },
   {

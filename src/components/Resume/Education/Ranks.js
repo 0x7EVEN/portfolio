@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Ranks = ({ data }) => (
   <article className="degree-container">
     <header>
-      <h4 className="degree"><b>{data.platform}</b></h4>
+      <h3 className="degree">{data.platform}</h3>
       <p className="school"><a href={data.link} style={{ backgroundColor: data.color }}>{data.rank} </a><a href={data.link}>↗</a> {data.year},
         <br />
         <span style={{ lineHeight: '1.5em', letterSpacing: '1px' }}>{data.info}</span>

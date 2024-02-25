@@ -22,7 +22,7 @@ Currently,
 - CTFs
 - Chess
 - Swimming
-- Beat Production
+- Problem solving
 - Sketching
 
 
@@ -32,7 +32,6 @@ Currently,
 
 # I dream of
 
-- Always learning
+- Always learning.
 - Enabling a brighter future.
 - Doing better.
-
