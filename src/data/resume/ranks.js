@@ -4,7 +4,7 @@ const ranks = [
     rank: 'Yellow Belt',
     link: 'https://pwn.college/belts',
     year: 2023,
-    info: '   pwn.college (by Arizona State University) is one of the leading hacking platform to learn about, and practice core cybersecurity concepts in a hands-on fashion, need to solve 300+ challenges to get yellow belt.',
+    info: '   pwn.college (by Arizona State University) is one of the leading hacking platform to learn about, and practice core cybersecurity concepts in a hands-on fashion across multiple domains ranging from binary exploitation, cryptography, networking, web exploitaion to reverse engineering and much more.',
     color: '#ebc934',
   },
   {

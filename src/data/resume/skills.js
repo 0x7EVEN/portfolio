@@ -45,7 +45,7 @@ const skills = [
   {
     title: 'API testing - Burpsuit/Scripting/Automating',
     competency: 4,
-    category: ['Web Development', 'Pentesting', 'Tools'],
+    category: ['Web Development', 'Pentesting', 'Tools', 'CTFing'],
   },
   {
     title: 'Express.JS',
@@ -60,7 +60,7 @@ const skills = [
   {
     title: 'Binary Analysis',
     competency: 4,
-    category: ['CTFing', 'Pentesting', 'Linux'],
+    category: ['CTFing', 'Pentesting'],
   },
   {
     title: 'Web exploitation',
@@ -69,8 +69,8 @@ const skills = [
   },
   {
     title: 'Communication',
-    competency: 4,
-    category: ['Web Development'],
+    competency: 3,
+    category: ['Soft skills'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
@@ -99,7 +99,7 @@ const skills = [
   },
   {
     title: 'Cryptography',
-    competency: 4,
+    competency: 3,
     category: ['CTFing'],
   },
   {
