@@ -13,7 +13,7 @@ const Index = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/">Who am I ?</Link></h2>
-          <p>Hacker, {'<Programmer/>'}, Fitness freak</p>
+          <p><span style={{color: 'red'}}>Hacker</span>, {'<Programmer/>'}, Fitness freak</p>
           <p>Sketcher, Chess player</p>
           <p>Developer</p>
         </div>
