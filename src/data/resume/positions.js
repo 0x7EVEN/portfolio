@@ -4,7 +4,9 @@ const positions = [
     position: 'Player',
     link: 'http://tryhackme.com/p/7EVEN',
     daterange: 'Oct 2020 - Present',
-    points: ['Worked on multiple web explotation and binary exploitation challenges !'],
+    points: ['Worked on multiple web explotation and binary exploitation challenges.',
+      'Achieved winner, runner up ranks in multiple CTFs',
+    ],
   },
   {
     company: 'Olaelectric',
