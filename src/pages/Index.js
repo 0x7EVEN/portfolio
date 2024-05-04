@@ -7,15 +7,13 @@ import ContactIcons from '../components/Contact/ContactIcons';
 const Index = () => (
   <Main
     description={'Arif Shaikh, '
-    + 'SDE-I at olaelectric'}
+    + 'Security Engineer / Ex-SDE, CTF Player'}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/">Who am I ?</Link></h2>
-          <p><span style={{color: 'red'}}>Hacker</span>, {'<Programmer/>'}, Fitness freak</p>
-          <p>Sketcher, Chess player</p>
-          <p>Developer</p>
+          <p><span style={{color: 'red'}}>Hacker</span>, {'<Programmer/>'}, Chess player</p>
         </div>
         <div>
         <section style={{"marginTop":"10px","marginRight":"20px"}} id="main-contact">

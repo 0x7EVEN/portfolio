@@ -15,6 +15,14 @@ const ranks = [
     info: '   Hack The Box, a widely recognized platform for cybersecurity challenges and penetration testing, ranked 668 with showcasing my proficiency in various aspects of cybersecurity.',
     color: '#9fef00',
   },
+  {
+    platform: 'Lichess',
+    rank: 'International Class - A',
+    link: 'https://lichess.org/Ace149',
+    year: 2020,
+    info: 'Achieved ELO of 2100 with 12,000+ blitz game. Categories played - blitzs, Rapid with some tournament points with top 10% chess players on platform worldwide',
+    color: '#25f0ff91',
+  },
 ];
 
 export default ranks;

@@ -2,8 +2,8 @@ const courses = [
   {
     title: 'Debugging with GDB',
     number: 'A',
-    link: 'https://tryhackme.com',
-    university: 'Tryhackme',
+    link: 'https://p.ost2.fyi/certificates/55b4488b1f4c49559e37fd9951bf5901',
+    university: 'Opensecuritytraining2',
   },
   {
     title: 'Civil Engineering',
