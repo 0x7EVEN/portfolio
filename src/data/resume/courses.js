@@ -8,7 +8,7 @@ const courses = [
   {
     title: 'Civil Engineering',
     number: 'CS 229',
-    link: 'http://cs229.stanford.edu/',
+    link: 'https://dnyanshree.edu.in/',
     university: 'Stanford',
   },
   {
