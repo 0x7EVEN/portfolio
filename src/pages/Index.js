@@ -23,8 +23,8 @@ const Index = () => (
       </header>
       <p title="You can connect over social media as well !">
         Hola amigos! 👋 Greetings from my corner of internet !
-        explore from my <Link to="/about">story</Link>, know more about my skills from <Link to="/resume">resume</Link> 
-        and <Link to="/projects">projects</Link>, and everything in between. 
+        explore from my <Link to="/about">story</Link>, know more about my skills from {' '} <Link to="/resume">resume</Link> 
+        {' '}and <Link to="/projects">projects</Link>,{' '}and everything in between. 
         It's all about building and breaking stuff, so come along as we uncover new possibilities together! here are few ways to <Link to="/contact">contact</Link> me.
       </p>
     </article>
