@@ -1,6 +1,18 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'JS-SAST tool for javascript analysis',
+    subtitle: '[CLI] Private tool specifically crafted for javascript analysis for vulnerabilities and sensitive information.',
+    link: 'javascript:alert(\'this is private tool\')',
+    image: '/images/js-sast.png',
+    date: '2023-08-28',
+    desc:
+      'Created private js analysis tool for vulnerability and sensitive information scanner, detailed and configurable outputs.'
+      + 'Written in go '
+      + 'Easy to configure '
+      + 'Easy to install and use, lightweight.',
+  },
+  {
     title: 'Public Distribution System',
     subtitle: '[Front-end + Backend] Refacotring and automating Indian Public Disctribution system',
     image: '/images/pds-app.jpg',
