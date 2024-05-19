@@ -23,7 +23,7 @@ const positions = [
     company: 'OLA',
     position: 'Cybersecurity Engineer',
     link: 'https://olacabs.com',
-    daterange: 'December 2021 - Apr 2023',
+    daterange: 'Arp 2023 - Apr 2023',
     points: [
       'Vulnerability assessments and penetration tests on a wide range of web applications, leveraging advanced tools and techniques to identify critical security flaws.',
       'Conducted in-depth analysis on emerging vulnerabilities and attack vectors, staying in sync with the latest trends and developments in the cybersecurity landscape.',
