@@ -1,7 +1,7 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'JS-SAST tool for javascript analysis',
+    title: '[private] JS-SAST tool for javascript analysis',
     subtitle: '[CLI] Private tool specifically crafted for javascript analysis for vulnerabilities and sensitive information.',
     link: 'http://ar1fshaikh.com/projects',
     image: '/images/js-sast.png',
