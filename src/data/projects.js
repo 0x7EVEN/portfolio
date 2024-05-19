@@ -3,7 +3,7 @@ const data = [
   {
     title: '[private] JS-SAST tool for javascript analysis',
     subtitle: '[CLI] Private tool specifically crafted for javascript analysis for vulnerabilities and sensitive information.',
-    link: 'http://ar1fshaikh.com/projects',
+    link: 'https://ar1fshaikh.com/projects',
     image: '/images/js-sast.png',
     date: '2023-08-28',
     desc:
