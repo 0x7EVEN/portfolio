@@ -103,7 +103,7 @@ const skills = [
     category: ['CTFing'],
   },
   {
-    title: 'Debugging/Reverse Engineering - GBD/Web Debug/IDA/etc',
+    title: 'Reverse Engineering - GBD/IDA/etc',
     competency: 4,
     category: ['CTFing', 'Tools'],
   },
