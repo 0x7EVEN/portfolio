@@ -18,6 +18,11 @@ const skills = [
     category: ['Web Development'],
   },
   {
+    title: 'Kubernetes',
+    competency: 3,
+    category: ['Pentesting'],
+  },
+  {
     title: 'Bash',
     competency: 3,
     category: ['Tools', 'Languages'],
@@ -38,12 +43,12 @@ const skills = [
     category: ['CTFing', 'Pentesting'],
   },
   {
-    title: 'Database stack - NoSql/PostgreSQL/SQLite3/SQL',
+    title: 'Database stack - NoSql/*-SQL',
     competency: 3,
     category: ['Web Development', 'Databases', 'Languages'],
   },
   {
-    title: 'API testing - Burpsuit/Scripting/Automating',
+    title: 'API testing + Scripting/Automating',
     competency: 4,
     category: ['Web Development', 'Pentesting', 'Tools', 'CTFing'],
   },
@@ -53,7 +58,7 @@ const skills = [
     category: ['Web Development'],
   },
   {
-    title: 'Git/Mercurial',
+    title: 'Git',
     competency: 3,
     category: ['Tools'],
   },
@@ -73,12 +78,17 @@ const skills = [
     category: ['Soft skills'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
+    title: 'HTML + CSS',
     competency: 3,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'Python',
+    competency: 4,
+    category: ['Languages'],
+  },
+  {
+    title: 'Golang',
     competency: 4,
     category: ['Languages'],
   },
@@ -123,6 +133,7 @@ const colors = [
   '#d75858',
   '#747fff',
   '#64cb7b',
+  '#37a2cc',
 ];
 
 const categories = [
